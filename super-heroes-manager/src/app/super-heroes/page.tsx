@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import styles from './SuperHeroes.module.css';
 import { heroes } from '../data/heroes';
 
@@ -9,7 +10,9 @@ export default function SuperHeroesPage() {
       <ul>
         {heroes.map((hero) => (
           <li key={hero.id}>
-            {hero.name} – {hero.alias} – <em>{hero.powers.join(', ')}</em>
+            {hero.name} – {hero.alias} – <em>{hero.powers.join(', ')}</em> - <Link className={styles.link} href={`/super-heroes/${hero.id}/details`}>
+              View details
+            </Link>
           </li>
         ))}
       </ul>

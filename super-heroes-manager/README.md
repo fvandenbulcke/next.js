@@ -31,7 +31,7 @@ Each interaction is tied to a specific React concept or feature, making the app 
 | Concept | Status |
 |---------|--------|
 | Project setup and basic structure| ✅ |
-| avigation with Link and Router | 🚧 |
+| Navigation with Link and Router | ✅ |
 | Global Layouts | 🚧 |
 | Server vs Client Components | 🚧 |
 | Data fetching | 🚧 |

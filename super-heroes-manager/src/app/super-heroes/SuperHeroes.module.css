@@ -6,3 +6,8 @@
 .title {
   color: darkblue;
 }
+
+.link {
+  color: dodgerblue;
+  text-decoration: underline;
+}
