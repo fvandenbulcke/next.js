@@ -32,9 +32,9 @@ Each interaction is tied to a specific React concept or feature, making the app 
 |---------|--------|
 | Project setup and basic structure| ✅ |
 | Navigation with Link and Router | ✅ |
+| Data fetching | ✅ |
 | Global Layouts | 🚧 |
 | Server vs Client Components | 🚧 |
-| Data fetching | 🚧 |
 | Dynamic routes with parameters | 🚧 |
 | API Routes | 🚧 |
 | State Management with Context and Hooks | 🚧 |
